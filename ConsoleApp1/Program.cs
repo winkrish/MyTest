@@ -15,7 +15,10 @@ namespace ConsoleApp1
                 Console.WriteLine("hi");
                 int i = 0;
                 int j = 0;
-                int k = i / j;
+                if (i != 0 & j != 0)
+                {
+                    int k = i / j;
+                }
             }
             catch(Exception ex)
             {
